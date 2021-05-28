@@ -1,14 +1,18 @@
+
+
+
+
 .product {
     display: flex;
     flex-direction: column;
     max-height: 500px;
     max-width: 300px;
     margin: 10px;
-    background-color: rgb(156, 204, 226);
+    background-color: white;
     width: 100%;
     padding: 15px;
     justify-content: flex-end;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 3%;
 }
 
@@ -43,8 +47,11 @@
 }
 
 .product_addtobasket {
-    background-color: beige;
+    background-color: #232F3E;
     border: 1px solid black;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 10px 5px rgba(184, 186, 219, 0.2);
 }
 
 .product_price h6{

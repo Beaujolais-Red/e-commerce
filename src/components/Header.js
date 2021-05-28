@@ -13,7 +13,7 @@ function Header() {
             <div className="header_option">
                 <Link to ="/checkout" className = "header_link">
                     <div className="header_cart">
-                        <ShoppingBasketIcon fontSize = "40" color = "action" />
+                        <ShoppingBasketIcon fontSize = "40" color = "primary" />
                         <span className = "header_basket_count">{basket?.length}</span>
                     </div>
                 </Link>

@@ -1,6 +1,10 @@
 import React from "react"
 import Product from "./Product"
 import "./Homepage.css"
+import omega from "./images/omega.png"
+import audemars from "./images/audemars.png"
+
+
 
 function Homepage() {
     return (
@@ -10,7 +14,7 @@ function Homepage() {
                 id = "111111"
                 name = "Omega Seamaster Aqua Terra GMT Worldtimer"
                 price = {7890}
-                image = "https://pbs.twimg.com/media/D7KxZKnWsAApgEg.jpg"
+                image = {omega}
             />
                 <Product
                 id = "222222"
@@ -22,7 +26,7 @@ function Homepage() {
                 id = "333333"
                 name = "Audemars Piguet Royal Oak Skeleton Rose Gold"
                 price = {139999}
-                image = "https://quillandpad.com/wp-content/uploads/2016/05/Audemars-Piguet_Royal-Oak-Double-Balance-Wheel-Openworked_red-gold_7929.jpg"
+                image = {audemars}
             />
             </div>
 

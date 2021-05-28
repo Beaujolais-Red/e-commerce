@@ -1,7 +1,7 @@
 .checkout{
     display: flex;
     padding: 20px;
-    background-color: beige;
+    background-color: white;
     height: max-content;
 }
 .checkout__title{
