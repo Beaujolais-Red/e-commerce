@@ -10,10 +10,10 @@ function Header() {
             <img className = "header_logo" alt="logo" src={riverish}/>
             <div className="header_option">
                 <Link to ="/checkout" className = "header_link">
-                    <span className="header_cart">
+                    <div className="header_cart">
                         <ShoppingBasketIcon fontSize = "40" color = "action" />
                         <span className = "header_basket_count">2</span>
-                    </span>
+                    </div>
                 </Link>
             </div>
         </nav>
