@@ -8,18 +8,18 @@ import Checkout from "./components/Checkout"
 
 function App() {
   return (
-
-=======
     <Router>
       <div className="App">
           <Switch>
             <Route path="/">
               <Header/>
               <Homepage/>
+              <Footer/>
             </Route>
             <Route path="/checkout">
               <Header/>
               <Checkout/>
+              <Footer/>
             </Route>
           </Switch>
       </div>
@@ -29,3 +29,11 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
