@@ -1,0 +1,12 @@
+.homepage {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage_row{
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    margin: 30px auto;
+}
